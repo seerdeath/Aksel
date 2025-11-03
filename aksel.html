@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Бронирование ПК</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+  <h1>💻 Бронирование ПК</h1>
+  <div id="grid" class="grid"></div>
+
+  <div id="popup" class="popup hidden">
+    <h2 id="popup-title"></h2>
+    <input id="time" type="time" />
+    <input id="name" type="text" placeholder="Имя" />
+    <button id="confirm">Забронировать</button>
+    <button id="cancel">Отмена</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
